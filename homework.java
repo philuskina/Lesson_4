@@ -1,4 +1,8 @@
+import java.io.PrintStream;
+
 public class homework {
+    
+    static PrintStream out = System.out;
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
@@ -17,9 +21,9 @@ public class homework {
     }
 
     static void printThreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+        out.println("Orange");
+        out.println("Banana");
+        out.println("Apple");
     }
 
     static void checkSumSign() {
